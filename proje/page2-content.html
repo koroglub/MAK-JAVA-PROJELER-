@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <style>
+         .yenikutu2{
+            
+            display: inline-block;
+            margin-right: 50px;
+        }
+    </style>
+      <style>
+        .kutu2{
+            background-color: rgb(140, 112, 78);
+            border-radius: 15px;/* köşelere şekil verir ovalleştirir*/
+           
+        }
+        .button  {
+            background-color:bisque;
+            color: black;
+            padding: auto; 10px 20px;
+            border color: #000;
+            border-radius:5px;
+            cursor: pointer;
+            width: 100%;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <div class="kutu2" style=" display: inline-block; padding-left: 5px;">
+    <form class="yenikutu2">
+        <h2>Kitap Paylaşma Formu</h2> 
+        <p>Paylaşımını yapmak istediğiniz kitap için aşağıdaki formu doldurunuz.</p>
+        <input type="text" class="button"  placeholder="isminiz"> 
+        <input type="password" class="button" placeholder="soyadınız">  <br>
+        <input type="password" class="button" placeholder="emailadresi">  
+        <input type="email" class="button" placeholder="şifreniz"> <br>
+        <input type="text" class="button" placeholder="kitap ismi">
+        <input type="text" class="button"  placeholder="kitabın yazarı"><br>
+        <input type="file" class="button"> <br> <br>
+       
+        Kitap Türleri 
+        <select style="border-radius: 5px;" class="button">
+            <option value="roman">roman</option>
+            <option value="şiir">şiir</option>
+            <option value="biyografi">biyografi</option>
+            <option value="çocuk">çocuk</option>
+            <option value="bilgi">bilgi</option>
+        </select> <br> <br>
+        <h5>Eklemek istediğiniz</h5>
+        <textarea class="button" name="mesajInput" id="mesaj Alani" cols="60" rows="10"></textarea> <br> 
+        <input style="border-radius: 5px;" type="submit" value="Gönder">
+        <input style="border-radius: 5px;" type="reset" value="Temizle">
+    
+    
+    </form>
+    </div>
+    <div class="kutu2" style=" padding-left: 5px;margin-top: 10px; width: 510px; margin-bottom: 15px;">
+        <form class="yenikutu2">
+            <h2>Kitap Değerlendirme Formu</h2> 
+            <p>Değerlendirmek İstediğiniz Kitapla ilgili yorumunuzu bu form ile iletebilirsiniz.</p>
+            <input type="text" class="button"  placeholder="isminiz"> 
+            <input type="password" class="button" placeholder="soyadınız">  <br>
+            <input type="password" class="button" placeholder="emailadresi">  
+            <input type="email" class="button" placeholder="şifreniz"> <br>
+            <input type="text" class="button" placeholder="kitap ismi">
+            <input type="text" class="button"  placeholder="kitabın yazarı"><br>
+           
+          
+            <h5>Yorumunuz</h5>
+            <textarea class="button" name="mesajInput" id="mesaj yeri " cols="60" rows="10"></textarea> <br> 
+            <input style="border-radius: 5px;" type="submit" value="Gönder">
+            <input style="border-radius: 5px;" type="reset" value="Temizle">
+        
+        
+        </form>
+        </div>
+   
+</body>
+</html>
